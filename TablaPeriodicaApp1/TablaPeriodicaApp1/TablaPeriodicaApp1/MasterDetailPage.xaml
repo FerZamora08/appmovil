@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:local="clr-namespace:TablaPeriodicaApp1"
+                  x:Class="TablaPeriodicaApp1.MasterDetailPage"
+                  Title="TABLA PERIODICA DE LOS ELEMENTOS">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menú">
+            <StackLayout>
+                <ListView x:Name="MenuListView" ItemSelected="OnMenuItemSelected">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Inicio</x:String>
+                            <x:String>Historia de la Tabla Periódica</x:String>
+                            <x:String>Quiz de Elementos</x:String>
+
+                        </x:Array>
+                    </ListView.ItemsSource>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding .}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage x:Name="DetailPage">
+            <x:Arguments>
+                <local:MainPage />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

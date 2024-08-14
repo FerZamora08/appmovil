@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TablaPeriodicaApp1"
+             x:Class="TablaPeriodicaApp1.QuizPage">
+   
+    
+    
+    <StackLayout Padding="10">
+        <Label x:Name="Questionlabel" Text="Pregunta" FontSize="Large" />
+        <StackLayout x:Name="Optionslayout">
+
+        </StackLayout>
+        <Button Text="Siguiente" Clicked="OnNextQuestion" />
+    </StackLayout>
+</ContentPage>

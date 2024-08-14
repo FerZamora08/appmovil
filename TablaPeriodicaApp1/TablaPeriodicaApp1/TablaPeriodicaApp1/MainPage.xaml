@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TablaPeriodicaApp1"
+             x:Class="TablaPeriodicaApp1.MainPage"
+             BackgroundColor="White">
+
+    <ContentPage.Resources>
+        <Style x:Key="ElementButtonStyle" TargetType="Button">
+            <Setter Property="WidthRequest" Value="60" />
+            <Setter Property="HeightRequest" Value="60" />
+            <Setter Property="BackgroundColor" Value="LightGray" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Margin" Value="1" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <SearchBar x:Name="searchBar" Placeholder="Buscar elementos..." TextChanged="OnSearchBarTextChanged" TextColor="White" BackgroundColor="YellowGreen"/>
+        <ScrollView Orientation="Both">
+            <Grid x:Name="amy" Padding="10">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+
+
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

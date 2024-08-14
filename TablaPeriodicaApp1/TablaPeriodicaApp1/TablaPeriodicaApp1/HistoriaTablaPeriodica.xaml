@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TablaPeriodicaApp1.HistoriaTablaPeriodica">
+   
+    
+    
+    
+    
+    
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Historia de la Tabla Periódica"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,10"/>
+            <Label Text="La tabla periódica fue desarrollada principalmente por el químico Dmitri Mendeléyev en 1869. Mendeléyev organizó los elementos químicos conocidos en ese momento en una tabla en función de sus propiedades químicas. Esta tabla permitió predecir la existencia de elementos aún no descubiertos y sus propiedades."
+                   FontSize="16"/>
+            <Label Text="Con el tiempo, la tabla periódica se ha actualizado para incluir nuevos elementos descubiertos y para reflejar un mejor entendimiento de la estructura atómica. Hoy en día, es una herramienta esencial en la química, la física y muchas otras ciencias."
+                   FontSize="16"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

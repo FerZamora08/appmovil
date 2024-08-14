@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aC4JPL2Y118=",
+  "success": true,
+  "projectFilePath": "E:\\APLICACION\\TablaPeriodicaApp1\\TablaPeriodicaApp1\\TablaPeriodicaApp1.iOS\\TablaPeriodicaApp1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ICEL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ICEL\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ICEL\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
